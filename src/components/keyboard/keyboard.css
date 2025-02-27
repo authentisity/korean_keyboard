@@ -1,0 +1,37 @@
+#keyboard{
+    height: 377px;
+    width: 1098px;
+    background-color: #cbccce;
+    font-size: 2rem;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.key-row {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.key{
+    display: flex;
+    flex: 1;
+    background-color: #f3f4f8;
+    color: #8e8f93;
+    margin: 2px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    font-size: 55%;
+}
+
+.key:hover {
+    color: white;
+    background-color: #9b9c9e73;
+}
+
+.key:active {
+    background-color: #7373778b;
+}
